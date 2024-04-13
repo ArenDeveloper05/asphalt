@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: navFont;
+  src: url(./assets/fonts/Perforama.otf);
+}
+
+:root {
+  --global-max-width: 2000px;
+  --nav-font: navFont;
+  --blue-elegant: #124254;
+  --text-font: "Didact Gothic", sans-serif;
+  --header-gradient: linear-gradient(
+    174deg,
+    rgba(18, 66, 84, 1) 49%,
+    rgba(223, 228, 223, 0.8883928571428571) 100%
+  );
+  --header-gradient-transparent: linear-gradient(
+    174deg,
+    rgba(223, 228, 223, 0.9192051820728291) 0%,
+    rgba(18, 66, 84, 0.5690651260504201) 99%
+  );
+}
+
+main {
+  max-width: var(--global-max-width);
+  border: solid red 8px;
+  margin: auto;
+  margin-top: 180px;
+  overflow: hidden;
+}

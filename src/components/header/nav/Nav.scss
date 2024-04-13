@@ -1,0 +1,51 @@
+.nav-wrapper {
+}
+
+.nav {
+  display: flex;
+  background-color: black;
+
+  &-item {
+    border: solid 4px;
+    padding: 10px 24px;
+    position: relative;
+    transition: 0.3s;
+    background-color: black;
+
+    a {
+      text-decoration: none;
+      font-size: 26px;
+      font-family: var(--nav-font);
+      color: white;
+    }
+
+    &-nested {
+      position: absolute;
+      bottom: -340px;
+      background-color: black;
+      transition: 0.3s;
+      opacity: 0;
+      visibility: hidden;
+      border: solid 4px;
+
+      &-item {
+        padding: 16px;
+        transition: 0.3s;
+        background-color: black;
+
+        &:hover {
+          background-color: var(--blue-elegant);
+        }
+      }
+    }
+    &:hover {
+      background-color: var(--blue-elegant);
+    }
+
+    &:hover &-nested {
+      opacity: 1;
+      visibility: visible;
+      bottom: -326px;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1420px) {
+  .home-gallery-image {
+    height: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 754px) {
+  .home-services-item {
+    width: 400px;
+  }
+
+  .home-services-item-description {
+    bottom: -50px;
+  }
+}
+
+@media only screen and (max-width: 554px) {
+  .home-services-item {
+    width: 300px;
+  }
+
+  .home-services-item-description {
+    font-size: 16px;
+    bottom: -40px;
+  }
+
+  .home-services-item h2 {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .home-services-item {
+    width: 250px;
+  }
+
+  .home-services-item-description {
+    font-size: 16px;
+    bottom: -40px;
+  }
+
+  .home-services-item h2 {
+    font-size: 24px;
+  }
+}
