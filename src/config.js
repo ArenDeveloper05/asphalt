@@ -14,9 +14,8 @@ export const navConfig = [
     ],
   },
   { id: 3, title: "Цены", link: ROUTER.HOME_PAGE_ROUTE, children: [] },
-  { id: 4, title: "Галерея", link: ROUTER.HOME_PAGE_ROUTE, children: [] },
-  { id: 5, title: "Новости", link: ROUTER.HOME_PAGE_ROUTE, children: [] },
-  { id: 6, title: "Контакты", link: ROUTER.HOME_PAGE_ROUTE, children: [] },
+  { id: 4, title: "Галерея", link: ROUTER.GALLERY_PAGE_ROUTE, children: [] },
+  { id: 5, title: "Контакты", link: ROUTER.CONTACT_PAGE_ROUTE, children: [] },
 ];
 
 export const homeServicesConfig = [

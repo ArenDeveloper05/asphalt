@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 
 import "./HomeContact.scss";
 
-const HomeContact = () => {
+const HomeContact = ({ noTitle }) => {
   const [values, setValues] = useState({ tel: "", email: "", message: "" });
   const form = useRef();
 
@@ -28,7 +28,8 @@ const HomeContact = () => {
   }
   return (
     <div className="home-contact">
-      <h1>Обратная связь</h1>
+      {!noTitle && <h1>Обратная связь</h1>}
+
       <form
         className="home-contact-form"
         ref={form}

@@ -1,6 +1,28 @@
 .home-gallery {
   padding: 64px 32px;
 
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--nav-font);
+    line-height: 60px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    a {
+      color: var(--blue-elegant);
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      transition: 0.3s;
+      svg {
+        font-size: 50px;
+      }
+      &:hover {
+        color: rgb(19, 31, 123);
+      }
+    }
+  }
+
   .swiper-button-prev,
   .swiper-button-next {
     width: 50px;

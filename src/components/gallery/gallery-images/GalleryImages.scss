@@ -1,0 +1,20 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+.gallery-images {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--nav-font);
+    line-height: 60px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    color: var(--blue-elegant);
+  }
+  &-list {
+    padding: 32px 100px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--blue-elegant);
+    border-radius: 30px;
+  }
+}

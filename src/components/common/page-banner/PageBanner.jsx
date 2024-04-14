@@ -4,13 +4,19 @@ import { Fragment } from "react";
 import { FaHome } from "react-icons/fa";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
+import bannerImg from "../../../assets/images/banner/page-banner.png";
+
 import "./PageBanner.scss";
 
 const PageBanner = ({ img, list }) => {
   return (
     <div
       className="page-banner"
-      style={img ? { backgroundImage: `url(${img})` } : {}}
+      style={
+        img
+          ? { backgroundImage: `url(${img})` }
+          : { backgroundImage: `url(${bannerImg})` }
+      }
     >
       <FaHome />
       <Link to={ROUTER.HOME_PAGE_ROUTE}> Начало</Link>

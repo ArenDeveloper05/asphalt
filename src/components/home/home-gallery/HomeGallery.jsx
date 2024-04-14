@@ -12,6 +12,9 @@ import {
   A11y,
   Autoplay,
 } from "swiper/modules";
+import { Link } from "react-router-dom";
+import { ROUTER } from "../../../router/router";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 import "./HomeGallery.scss";
 
@@ -20,6 +23,12 @@ const HomeGallery = () => {
 
   return (
     <div className="home-gallery">
+      <h1>
+        <Link to={ROUTER.GALLERY_PAGE_ROUTE}>
+          Галерея работ
+          <MdKeyboardArrowRight />
+        </Link>
+      </h1>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={50}

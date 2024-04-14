@@ -2,29 +2,36 @@
   .home-gallery-image {
     height: 200px !important;
   }
+  .contact {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 754px) {
-  .home-services-item {
+  .home-services-list-item {
     width: 400px;
   }
 
-  .home-services-item-description {
+  .home-services-list-item-description {
     bottom: -50px;
   }
 }
 
 @media only screen and (max-width: 554px) {
-  .home-services-item {
+  .contact-information-map {
+    height: 450px;
+  }
+
+  .home-services-list-item {
     width: 300px;
   }
 
-  .home-services-item-description {
+  .home-services-list-item-description {
     font-size: 16px;
     bottom: -40px;
   }
 
-  .home-services-item h2 {
+  .home-services-list-item h2 {
     font-size: 26px;
   }
   .home-contact {

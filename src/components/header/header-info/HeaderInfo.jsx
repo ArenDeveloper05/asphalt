@@ -7,17 +7,17 @@ const HeaderInfo = () => {
   return (
     <div className="header-info">
       <p>
-        Сергиев Посад
+        Московская область
         <FaLocationDot />
       </p>
 
       <p>
-        Пограничная, д 7
+        город Королёв
         <FaLocationDot />
       </p>
 
-      <a href="tel:+79653353568">
-        Тел. +7(965)-335-35-68 <BsFillTelephoneInboundFill />
+      <a href="tel:+79057552919">
+        Тел. +7 (905)-755-29-19 <BsFillTelephoneInboundFill />
       </a>
     </div>
   );

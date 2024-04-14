@@ -26,11 +26,12 @@
     rgba(223, 228, 223, 0.9192051820728291) 0%,
     rgba(18, 66, 84, 0.5690651260504201) 99%
   );
+  --grey-light: #e4e4e4;
 }
 
 main {
   max-width: var(--global-max-width);
-  border: solid red 8px;
+  /* border: solid red 8px; */
   margin: auto;
   margin-top: 180px;
   overflow: hidden;
