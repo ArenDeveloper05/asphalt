@@ -12,13 +12,11 @@ const Header = () => {
   function handleScroll() {
     if (window.scrollY > 300) {
       if (scrollRef.current === false) {
-        console.log("hatec ancav");
         header.current.style.background = "var(--header-gradient-transparent)";
         scrollRef.current = true;
       }
     } else {
       if (scrollRef.current) {
-        console.log("het ekav");
         header.current.style.background = "var(--header-gradient)";
         scrollRef.current = false;
       }

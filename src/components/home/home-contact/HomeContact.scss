@@ -1,0 +1,67 @@
+.home-contact {
+  padding: 60px;
+  border: solid;
+  h1 {
+    font-size: 50px;
+    font-family: var(--nav-font);
+    color: var(--blue-elegant);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 23px 0;
+  }
+
+  &-form {
+    border: solid var(--blue-elegant);
+    padding: 32px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    background-color: var(--blue-elegant);
+
+    &-row {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      label {
+        font-size: 40px;
+        font-family: var(--nav-font);
+        color: white;
+      }
+      input,
+      textarea {
+        width: 100%;
+        height: 60px;
+        border-radius: 10px;
+        background-color: white;
+        outline: none;
+        padding: 24px;
+        border: none;
+        border: 1px solid rgb(178, 178, 178);
+        font-size: 30px;
+        font-family: var(--text-font);
+
+        &:focus {
+          border: solid black;
+        }
+      }
+      textarea {
+        min-height: 200px;
+      }
+    }
+    button {
+      padding: 16px 32px;
+      font-family: var(--text-font);
+      font-size: 40px;
+      font-weight: 600;
+      align-self: flex-end;
+      color: var(--blue-elegant);
+      background-color: white;
+      border: none;
+      border-radius: 30px;
+      width: max-content;
+      cursor: pointer;
+    }
+  }
+}

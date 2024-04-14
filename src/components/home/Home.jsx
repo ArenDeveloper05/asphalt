@@ -1,3 +1,4 @@
+import HomeContact from "./home-contact/HomeContact";
 import HomeGallery from "./home-gallery/HomeGallery";
 import HomeInfo from "./home-info/HomeInfo";
 import HomeServices from "./home-services/HomeServices";
@@ -8,6 +9,7 @@ const Home = () => {
       <HomeInfo />
       <HomeServices />
       <HomeGallery />
+      <HomeContact />
     </div>
   );
 };
