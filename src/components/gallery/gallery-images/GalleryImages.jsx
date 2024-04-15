@@ -1,11 +1,11 @@
 import { useSelector } from "react-redux";
+
 import "./GalleryImages.scss";
 
 import ImageGallery from "react-image-gallery";
 
 const GalleryImages = () => {
   const images = useSelector((state) => state.images.allImages);
-  console.log(images);
 
   return (
     <div className="gallery-images">

@@ -1,0 +1,42 @@
+.prices {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--nav-font);
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: var(--blue-elegant);
+    padding: 64px 32px;
+  }
+  &-tables {
+    padding: 60px;
+    padding-top: 0;
+    background-color: white;
+    &-row {
+      h2 {
+        font-size: 44px;
+        font-family: var(--text-font);
+        color: var(--blue-elegant);
+        letter-spacing: 1px;
+        margin-top: 64px;
+        margin-bottom: 16px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 30px;
+        font-family: var(--text-font);
+
+        tr {
+          border: solid var(--blue-elegant);
+          td,
+          th {
+            padding: 16px;
+            text-align: left;
+            color: var(--blue-elegant);
+          }
+        }
+      }
+    }
+  }
+}

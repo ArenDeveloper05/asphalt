@@ -12,7 +12,7 @@ const PricesPage = () => {
   return (
     <Layout>
       <PageBanner list={[{ id: 1, title: "Цены", link: "" }]} />
-      <Prices />;
+      <Prices />
     </Layout>
   );
 };
