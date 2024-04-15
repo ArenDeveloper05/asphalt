@@ -6,8 +6,9 @@ import Contact from "../components/contact/Contact";
 
 const ContactPage = () => {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, beshavior: "smooth" });
   }, []);
+
   return (
     <Layout>
       <PageBanner list={[{ id: 1, title: "Контакты", link: "" }]} />
