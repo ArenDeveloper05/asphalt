@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { ROUTER } from "../router/router";
 
 import CreatingRoads from "../components/services/creating-roads/CreatingRoads";
 import Layout from "../layout/Layout";
@@ -13,7 +14,7 @@ const CreatingRoadsPage = () => {
     <Layout>
       <PageBanner
         list={[
-          { id: 1, title: "Услуги", link: "" },
+          { id: 1, title: "Услуги", link: ROUTER.SERVICES_PAGE_ROUTE },
           { id: 2, title: "Строительство дорог", link: "" },
         ]}
       />

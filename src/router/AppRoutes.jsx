@@ -10,6 +10,7 @@ import AsphaltingRoadsPage from "../pages/AsphaltingRoadsPage";
 import RepairingRoadsPage from "../pages/RepairingRoadsPage";
 import AsphaltCrumbsPage from "../pages/AsphaltCrumbsPage";
 import PricesPage from "../pages/PricesPage";
+import ServicesPage from "../pages/ServicesPage";
 
 const AppRoutes = () => {
   return (
@@ -35,6 +36,7 @@ const AppRoutes = () => {
         element={<AsphaltCrumbsPage />}
       />
       <Route path={ROUTER.PRICES_PAGE_ROUTE} element={<PricesPage />} />
+      <Route path={ROUTER.SERVICES_PAGE_ROUTE} element={<ServicesPage />} />
     </Routes>
   );
 };

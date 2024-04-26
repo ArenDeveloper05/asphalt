@@ -1,11 +1,16 @@
 import { ROUTER } from "./router/router";
 
+import creatingImg from "./assets/images/services/creating.jpg";
+import asphaltingImg from "./assets/images/services/asphalting.jpg";
+import repairingImg from "./assets/images/services/repairing.jpg";
+import crumbsImg from "./assets/images/services/crumbs.jpg";
+
 export const navConfig = [
   { id: 1, title: "Главная", link: ROUTER.HOME_PAGE_ROUTE, children: [] },
   {
     id: 2,
     title: "Услуги",
-    link: ROUTER.HOME_PAGE_ROUTE,
+    link: ROUTER.SERVICES_PAGE_ROUTE,
     children: [
       {
         id: 1,
@@ -55,8 +60,34 @@ export const homeServicesConfig = [
   {
     id: 4,
     title: "Асфальтовая крошка",
-    description:
-      "Замена асфальтового покрытия, ямочный ремонт дорог, заделка трещин",
+    description: "Доставка и укладка асфальтовой крошки, щебня, песка",
+    link: ROUTER.ASPHALT_CRUMBS_PAGE_ROUTE,
+  },
+];
+
+export const servicesConfig = [
+  {
+    id: 1,
+    title: "Строительство дорог",
+    img: creatingImg,
+    link: ROUTER.CREATING_ROADS_PAGE_ROUTE,
+  },
+  {
+    id: 2,
+    title: "Асфальтирование дорог",
+    img: asphaltingImg,
+    link: ROUTER.ASPHALTING_ROADS_PAGE_ROUTE,
+  },
+  {
+    id: 3,
+    title: "Ремонт дорог",
+    img: repairingImg,
+    link: ROUTER.REPAIRING_ROADS_PAGE_ROUTE,
+  },
+  {
+    id: 4,
+    title: "Асфальтовая крошка",
+    img: crumbsImg,
     link: ROUTER.ASPHALT_CRUMBS_PAGE_ROUTE,
   },
 ];
