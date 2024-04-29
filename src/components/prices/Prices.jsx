@@ -1,15 +1,18 @@
+import BaseTitle from "../common/base-title/BaseTitle";
 import HomeContact from "../home/home-contact/HomeContact";
 
 import "./Prices.scss";
 
 const Prices = () => {
+  const props = {
+    title:
+      "Стоимость асфальтирования, ремонта дорог и укладки асфальтовой крошки в г. Сергиев Посад, Дмитров, Александров, Пушкино, Мытищи, Королев, Щелково",
+    description: "",
+  };
   return (
     <div className="prices">
-      <h1>
-        Стоимость асфальтирования, ремонта дорог и укладки асфальтовой крошки в
-        г. Сергиев Посад, Дмитров, Александров, Пушкино, Мытищи, Королев,
-        Щелково
-      </h1>
+      <BaseTitle title={props.title} />
+
       <div className="prices-tables">
         <div className="prices-tables-row">
           <h2>Бесплатные услуги</h2>

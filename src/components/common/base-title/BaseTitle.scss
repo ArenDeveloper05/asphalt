@@ -1,0 +1,23 @@
+.base-title {
+  padding: 64px 32px;
+
+  &-heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--nav-font);
+    line-height: 60px;
+    letter-spacing: 4px;
+    color: var(--blue-elegant);
+  }
+
+  &-description {
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: var(--text-font);
+    border: solid;
+    padding: 32px;
+    border-radius: 30px;
+    background-color: var(--blue-elegant);
+    color: white;
+  }
+}
