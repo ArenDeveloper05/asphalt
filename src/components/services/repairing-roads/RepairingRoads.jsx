@@ -12,7 +12,7 @@ const RepairingRoads = () => {
   return (
     <div className="repairing-roads">
       <BaseTitle title={props.title} description={props.description} />
-      <div className="repairing-roads-tables pricing-tables">
+      <div className="repairing-roads-tables prices-tables">
         <table>
           <tr>
             <td>Нарезка швов в асфальте алмазными дисками</td>
