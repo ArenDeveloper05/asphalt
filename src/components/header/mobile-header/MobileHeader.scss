@@ -1,0 +1,13 @@
+.mobile-header {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: none;
+  cursor: pointer;
+
+  > svg {
+    font-size: 50px;
+    transition: 0.5s;
+    color: rgb(203 221 237);
+  }
+}

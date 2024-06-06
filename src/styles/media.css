@@ -7,9 +7,27 @@
   }
 }
 
+@media only screen and (max-width: 1400px) {
+  .mobile-header {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 998px) {
   table {
     font-size: 26px !important;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  .header-info {
+    font-size: 16px;
   }
 }
 
@@ -21,9 +39,17 @@
   .home-services-list-item-description {
     bottom: -50px;
   }
+
+  header h1 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 554px) {
+  header h1 {
+    font-size: 20px;
+  }
+
   .contact-information-map {
     height: 450px;
   }

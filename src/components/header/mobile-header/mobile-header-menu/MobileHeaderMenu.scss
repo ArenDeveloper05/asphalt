@@ -1,0 +1,40 @@
+.mobile-menu {
+  width: 100%;
+  position: fixed;
+  top: 180px;
+  height: 100vh;
+  background-color: var(--blue-elegant);
+  transition: 0.4s;
+  padding: 30px;
+  overflow: auto;
+
+  > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: auto;
+
+    > li {
+      border: 1px solid white;
+      padding: 20px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-family: var(--nav-font);
+        font-size: 20px;
+      }
+
+      li {
+        border: 1px solid white;
+        padding: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}

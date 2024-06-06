@@ -4,6 +4,7 @@ import HeaderInfo from "./header-info/HeaderInfo";
 import Nav from "./nav/Nav";
 
 import "./Header.scss";
+import MobileHeader from "./mobile-header/MobileHeader";
 
 const Header = () => {
   const scrollRef = useRef(false);
@@ -31,6 +32,7 @@ const Header = () => {
 
   return (
     <header ref={header}>
+      <MobileHeader />
       <Nav />
       <HeaderInfo />
     </header>
