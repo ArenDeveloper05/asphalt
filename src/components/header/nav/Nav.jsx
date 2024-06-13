@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <div className="nav-wrapper">
       <h1>
-        Дор <span>-</span> Строй <span>-</span>Асфальт
+        Строительство <span>-</span> дорог <span>-</span>Москва
       </h1>
       <nav className="nav">
         {navConfig &&
