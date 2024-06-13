@@ -147,6 +147,11 @@
 
   .base-title-description {
     font-size: 18px;
+    margin-top: 26px;
+  }
+
+  footer p {
+    font-size: 20px;
   }
 }
 
