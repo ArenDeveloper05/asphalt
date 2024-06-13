@@ -58,7 +58,7 @@ const HomeGallery = () => {
           homeImages.map(({ id, description, src }) => {
             return (
               <SwiperSlide key={id}>
-                <div className="home-gallery-description">{description}</div>
+                {/* <div className="home-gallery-description">{description}</div> */}
                 <div className="home-gallery-image">
                   <img src={src} alt="homeImg" />
                 </div>
