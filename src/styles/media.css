@@ -1,7 +1,28 @@
+@media only screen and (max-width: 1700px) {
+  .creating-roads-production-column {
+    width: 600px !important;
+    height: auto !important;
+  }
+
+  .creating-roads-production-column > p {
+    font-size: 24px;
+  }
+
+  .base-title-heading {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .base-title-description {
+    font-size: 22px;
+  }
+}
+
 @media only screen and (max-width: 1420px) {
   .home-gallery-image {
     height: 200px !important;
   }
+
   .contact {
     flex-direction: column;
   }
@@ -14,6 +35,26 @@
 
   .nav {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1254px) {
+  .creating-roads-production {
+    padding: 20px;
+  }
+
+  .creating-roads-production-column {
+    width: 80% !important;
+    height: auto;
+  }
+
+  .creating-roads-production-column > h1 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .page-banner {
+    font-size: 26px;
   }
 }
 
@@ -42,6 +83,14 @@
 
   header h1 {
     display: none;
+  }
+
+  .creating-roads-production-column {
+    width: 100% !important;
+  }
+
+  .page-banner {
+    font-size: 20px;
   }
 }
 
@@ -90,6 +139,15 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .base-title-heading {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .base-title-description {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -104,5 +162,15 @@
 
   .home-services-item h2 {
     font-size: 24px;
+  }
+
+  .creating-roads-production-column > p {
+    font-size: 20px;
+  }
+
+  .page-banner {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 0;
   }
 }
