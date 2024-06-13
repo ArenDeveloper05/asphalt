@@ -23,7 +23,7 @@ const HomeGallery = () => {
 
   return (
     <div className="home-gallery">
-      <h1>
+      <h1 className="section-title">
         <Link to={ROUTER.GALLERY_PAGE_ROUTE}>
           Галерея работ
           <MdKeyboardArrowRight />

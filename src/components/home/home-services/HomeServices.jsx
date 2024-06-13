@@ -6,7 +6,7 @@ import "./HomeServices.scss";
 const HomeServices = () => {
   return (
     <section className="home-services">
-      <h1>Услуги</h1>
+      <h1 className="section-title">Услуги</h1>
       <div className="home-services-list">
         {homeServicesConfig.map(({ id, title, link, description }) => {
           return (

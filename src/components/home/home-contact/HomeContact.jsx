@@ -28,7 +28,7 @@ const HomeContact = ({ noTitle }) => {
   }
   return (
     <div className="home-contact">
-      {!noTitle && <h1>Обратная связь</h1>}
+      {!noTitle && <h1 className="section-title">Обратная связь</h1>}
 
       <form
         className="home-contact-form"

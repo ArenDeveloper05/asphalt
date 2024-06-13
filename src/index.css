@@ -36,3 +36,12 @@ main {
   margin-top: 180px;
   overflow: hidden;
 }
+
+.section-title {
+  color: var(--blue-elegant);
+  font-family: var(--nav-font);
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 23px 0;
+  text-align: center;
+}
