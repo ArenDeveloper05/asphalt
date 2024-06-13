@@ -5,12 +5,8 @@
     a {
       color: var(--blue-elegant);
       text-decoration: none;
-      display: flex;
-      justify-content: center;
       transition: 0.3s;
-      svg {
-        font-size: 50px;
-      }
+
       &:hover {
         color: rgb(19, 31, 123);
       }

@@ -3,6 +3,12 @@
   padding-top: 60px;
   background-color: #e4e4e4;
   h1 {
+    a {
+      transition: 0.3s;
+      &:hover {
+        color: rgb(19, 31, 123);
+      }
+    }
   }
 
   a {
