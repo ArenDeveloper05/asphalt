@@ -1,5 +1,9 @@
 import g1 from "../../../../assets/images/home/gallery/g1.jpg";
 import g4 from "../../../../assets/images/home/gallery/g4.jpg";
+import g9 from "../../../../assets/images/home/gallery/g9.jpg";
+import g7 from "../../../../assets/images/home/gallery/g7.jpg";
+import g6 from "../../../../assets/images/home/gallery/g6.jpg";
+import g8 from "../../../../assets/images/home/gallery/g8.jpg";
 
 const CreatingRoadsProduction = () => {
   return (
@@ -43,7 +47,7 @@ const CreatingRoadsProduction = () => {
         <img src={g4} alt="" />
       </div>
       <div className="creating-roads-production-column">
-        <img src={g1} alt="" />
+        <img src={g9} alt="" />
       </div>
       <div className="creating-roads-production-column">
         <h1>ЭТАПЫ АСФАЛЬТИРОВАНИЯ ПЛОЩАДКИ</h1>
@@ -79,10 +83,10 @@ const CreatingRoadsProduction = () => {
         </p>
       </div>
       <div className="creating-roads-production-column">
-        <img src={g1} alt="" />
+        <img src={g7} alt="" />
       </div>
       <div className="creating-roads-production-column">
-        <img src={g1} alt="" />
+        <img src={g6} alt="" />
       </div>
       <div className="creating-roads-production-column">
         <h1>Асфальтирование территории</h1>
@@ -121,7 +125,7 @@ const CreatingRoadsProduction = () => {
         </p>
       </div>
       <div className="creating-roads-production-column">
-        <img src={g1} alt="" />
+        <img src={g8} alt="" />
       </div>
     </div>
   );

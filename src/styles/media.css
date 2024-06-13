@@ -4,7 +4,10 @@
     height: auto !important;
   }
 
-  .creating-roads-production-column > p {
+  .creating-roads-production-column > p,
+  .creating-roads-info article p,
+  .creating-roads-info article ol li,
+  .creating-roads-info article ul li {
     font-size: 24px;
   }
 
@@ -60,9 +63,15 @@
     height: auto;
   }
 
-  .creating-roads-production-column > h1 {
+  .creating-roads-production-column > h1,
+  .creating-roads-info article h1 {
     font-size: 26px;
     line-height: 40px;
+  }
+
+  .creating-roads-info article h2 {
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .page-banner {
@@ -81,6 +90,14 @@
 
   .header-info {
     font-size: 16px;
+  }
+
+  .brushatka {
+    flex-direction: column;
+  }
+
+  .brushatka > div {
+    width: 100% !important;
   }
 }
 

@@ -1,8 +1,9 @@
 import BaseTitle from "../../common/base-title/BaseTitle";
 import HomeContact from "../../home/home-contact/HomeContact";
+import CreatingRoadsInfo from "./creating-roads-info/CreatingRoadsInfo";
+import CreatingRoadsProduction from "./creating-roads-production/CreatingRoadsProduction";
 
 import "./CreatingRoads.scss";
-import CreatingRoadsProduction from "./creating-roads-production/CreatingRoadsProduction";
 
 const CreatingRoads = () => {
   const props = {
@@ -16,90 +17,7 @@ const CreatingRoads = () => {
     <div className="creating-roads">
       <BaseTitle title={props.title} description={props.description} />
       <CreatingRoadsProduction />
-
-      <div className="prices-tables">
-        <div className="prices-tables-row">
-          <h2>
-            Представляем Вам цены на основные работы по строительству дорог:
-          </h2>
-        </div>
-        <table>
-          <tr>
-            <td>
-              <span>
-                Выемка грунта под проектные отметки с последующим вывозом на
-                утилизацию
-              </span>
-            </td>
-            <td>
-              <span>
-                м<sup>3</sup>
-              </span>
-            </td>
-            <td>
-              <span>700</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span>
-                Устройство основания 10 см из среднезернистого карьерного песка
-              </span>
-            </td>
-            <td>
-              <span>
-                м<sup>2</sup>
-              </span>
-            </td>
-            <td>
-              <span>120</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span>Укладка геотекстиля Дорнит М-300</span>
-            </td>
-            <td>
-              <span>
-                м<sup>2</sup>
-              </span>
-            </td>
-            <td>
-              <span>80</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span>
-                Устройство основания 10 см из известнякового щебня ф-20/40 М-600
-              </span>
-            </td>
-            <td>
-              <span>
-                м<sup>2</sup>
-              </span>
-            </td>
-            <td>
-              <span>220</span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <span>
-                Устройство основания 10 см из жестко укатываемого бетона В-7,5
-              </span>
-            </td>
-            <td>
-              <span>
-                м<sup>2</sup>
-              </span>
-            </td>
-            <td>
-              <span>450</span>
-            </td>
-          </tr>
-        </table>
-      </div>
+      <CreatingRoadsInfo />
       <HomeContact noTitle />
     </div>
   );
