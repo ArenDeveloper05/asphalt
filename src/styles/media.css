@@ -101,6 +101,12 @@
   }
 }
 
+@media only screen and (max-width: 925px) {
+  .base-row {
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 754px) {
   .home-services-list-item {
     width: 400px;

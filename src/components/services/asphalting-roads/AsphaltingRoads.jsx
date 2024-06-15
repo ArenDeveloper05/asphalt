@@ -1,5 +1,9 @@
+import BaseRow from "../../common/base-row/BaseRow";
 import BaseTitle from "../../common/base-title/BaseTitle";
 import HomeContact from "../../home/home-contact/HomeContact";
+
+import g2 from "../../../assets/images/home/gallery/g2.jpg";
+import g4 from "../../../assets/images/home/gallery/g4.jpg";
 
 import "./AsphaltingRoads.scss";
 
@@ -13,6 +17,7 @@ const AsphaltingRoads = () => {
   return (
     <div className="asphalting-roads">
       <BaseTitle title={props.title} description={props.description} />
+      <BaseRow imagesArr={[g2, g4]} />
       <div className="asphalting-roads-tables prices-tables">
         <table>
           <tr>

@@ -1,5 +1,9 @@
 import BaseTitle from "../../common/base-title/BaseTitle";
 import HomeContact from "../../home/home-contact/HomeContact";
+import BaseRow from "../../common/base-row/BaseRow";
+
+import crumb1 from "../../../assets/images/asphalt-crumbs/crumb1.jpg";
+import crumb2 from "../../../assets/images/asphalt-crumbs/crumb2.jpg";
 
 import "./AsphaltCrumbs.scss";
 
@@ -13,6 +17,8 @@ const AsphaltCrumbs = () => {
   return (
     <div className="asphalt-crumbs">
       <BaseTitle title={props.title} description={props.description} />
+      <BaseRow imagesArr={[crumb1, crumb2]} light />
+
       <div className="prices-tables">
         <table>
           <tr>

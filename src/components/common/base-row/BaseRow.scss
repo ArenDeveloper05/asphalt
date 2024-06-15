@@ -1,0 +1,23 @@
+.base-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 30px;
+  background-color: var(--grey-light);
+  margin-bottom: 40px;
+
+  &-image {
+    width: 400px;
+    height: 300px;
+    border: solid 8px var(--blue-elegant);
+    border-radius: 20px;
+    overflow: hidden;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

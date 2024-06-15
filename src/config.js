@@ -1,9 +1,9 @@
 import { ROUTER } from "./router/router";
 
-import creatingImg from "./assets/images/services/creating.jpg";
-import asphaltingImg from "./assets/images/services/asphalting.jpg";
-import repairingImg from "./assets/images/services/repairing.jpg";
-import crumbsImg from "./assets/images/services/crumbs.jpg";
+import creatingImg from "./assets/images/home/gallery/g4.jpg";
+import asphaltingImg from "./assets/images/home/gallery/g2.jpg";
+import repairingImg from "./assets/images/home/gallery/g9.jpg";
+import crumbsImg from "./assets/images/home/gallery/g10.jpg";
 
 export const navConfig = [
   { id: 1, title: "Главная", link: ROUTER.HOME_PAGE_ROUTE, children: [] },

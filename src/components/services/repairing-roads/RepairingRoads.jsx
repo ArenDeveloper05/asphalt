@@ -1,5 +1,9 @@
+import BaseRow from "../../common/base-row/BaseRow";
 import BaseTitle from "../../common/base-title/BaseTitle";
 import HomeContact from "../../home/home-contact/HomeContact";
+
+import g7 from "../../../assets/images/home/gallery/g7.jpg";
+import g10 from "../../../assets/images/home/gallery/g10.jpg";
 
 import "./RepairingRoads.scss";
 
@@ -13,6 +17,7 @@ const RepairingRoads = () => {
   return (
     <div className="repairing-roads">
       <BaseTitle title={props.title} description={props.description} />
+      <BaseRow imagesArr={[g7, g10]} />
       <div className="repairing-roads-tables prices-tables">
         <table>
           <tr>
