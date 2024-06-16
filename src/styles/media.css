@@ -51,6 +51,15 @@
   .nav {
     display: none;
   }
+
+  header {
+    min-height: 0;
+    height: 136px !important;
+  }
+
+  main {
+    margin-top: 136px;
+  }
 }
 
 @media only screen and (max-width: 1254px) {
@@ -105,6 +114,10 @@
   .base-row {
     justify-content: center;
   }
+
+  header h1 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 754px) {
@@ -114,10 +127,6 @@
 
   .home-services-list-item-description {
     bottom: -50px;
-  }
-
-  header h1 {
-    display: none;
   }
 
   .creating-roads-production-column {
