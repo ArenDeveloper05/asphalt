@@ -15,6 +15,7 @@ const MobileHeader = () => {
         className="mobile-header"
         onClick={() => {
           setMobileOpen((prev) => !prev);
+          document.body.style.overflow = mobileOpen ? "hidden" : "auto";
         }}
       >
         {mobileOpen ? <TiThMenu /> : <TfiClose />}
