@@ -9,7 +9,7 @@ const MobileHeaderMenu = ({ mobileOpen }) => {
   return (
     <div
       className="mobile-menu"
-      style={mobileOpen ? { transform: "translateX(-100%)" } : {}}
+      style={!mobileOpen ? { transform: "translateX(-100%)" } : {}}
     >
       <ul>
         {navConfig &&

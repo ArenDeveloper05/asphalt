@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TiThMenu } from "react-icons/ti";
 import { TfiClose } from "react-icons/tfi";
 
@@ -7,7 +7,13 @@ import MobileHeaderMenu from "./mobile-header-menu/MobileHeaderMenu";
 import "./MobileHeader.scss";
 
 const MobileHeader = () => {
-  const [mobileOpen, setMobileOpen] = useState(true);
+  const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    document.querySelector("html").style.overflow = mobileOpen
+      ? "hidden"
+      : "auto";
+  }, [mobileOpen]);
 
   return (
     <>
@@ -15,12 +21,9 @@ const MobileHeader = () => {
         className="mobile-header"
         onClick={() => {
           setMobileOpen((prev) => !prev);
-          document.querySelector("html").style.overflow = mobileOpen
-            ? "hidden"
-            : "auto";
         }}
       >
-        {mobileOpen ? <TiThMenu /> : <TfiClose />}
+        {mobileOpen ? <TfiClose /> : <TiThMenu />}
       </div>
       <MobileHeaderMenu mobileOpen={mobileOpen} />
     </>
