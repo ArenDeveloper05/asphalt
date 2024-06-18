@@ -136,6 +136,15 @@
   .page-banner {
     font-size: 20px;
   }
+
+  .services-content-item {
+    width: 100%;
+    min-width: 0px;
+  }
+
+  .services-content-item-image {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 554px) {
@@ -209,6 +218,10 @@
   .home-services-list-item-description {
     font-size: 16px;
   }
+
+  .services-content-item-name {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -233,5 +246,9 @@
     font-size: 16px;
     padding-left: 10px;
     padding-right: 0;
+  }
+
+  .services-content-item-image {
+    height: 200px;
   }
 }
