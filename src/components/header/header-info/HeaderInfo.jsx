@@ -7,12 +7,12 @@ const HeaderInfo = () => {
   return (
     <div className="header-info">
       <p>
-        Московская область
+        г. Пушкино,
         <FaLocationDot />
       </p>
 
       <p>
-        город Королёв
+        ул. Грибоедова, 7
         <FaLocationDot />
       </p>
 
