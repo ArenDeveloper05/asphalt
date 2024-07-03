@@ -1,8 +1,8 @@
 .mobile-menu {
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 136px;
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--blue-elegant);
   transition: 0.4s;
   padding: 30px;
