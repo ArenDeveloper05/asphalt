@@ -39,7 +39,8 @@ const MobileHeaderMenu = ({ mobileOpen }) => {
                       fontSize: "34px",
                       transform: nestedOpen ? "rotate(180deg)" : "rotate(0deg)",
                     }}
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.stopPropagation();
                       setNestedOpen((prev) => !prev);
                     }}
                   />

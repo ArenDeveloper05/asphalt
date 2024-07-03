@@ -224,7 +224,8 @@
   }
 
   .repairing-roads-tables table,
-  .asphalt-crumbs table {
+  .asphalt-crumbs table,
+  .asphalting-roads-tables table {
     font-size: 15px !important;
   }
 
@@ -276,5 +277,14 @@
 
   .services-content-item-image {
     height: 200px;
+  }
+
+  .contact {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .contact-information-map {
+    padding: 12px;
   }
 }
