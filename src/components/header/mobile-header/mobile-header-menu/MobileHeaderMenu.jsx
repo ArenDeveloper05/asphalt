@@ -1,10 +1,14 @@
 import { Link, useNavigate } from "react-router-dom";
 import { navConfig } from "../../../../config";
+import { useState } from "react";
+
+import { IoIosArrowDropdownCircle } from "react-icons/io";
 
 import "./MobileHeaderMenu.scss";
 
 const MobileHeaderMenu = ({ mobileOpen }) => {
   const navigate = useNavigate();
+  const [nestedOpen, setNestedOpen] = useState(false);
 
   return (
     <div
@@ -17,12 +21,31 @@ const MobileHeaderMenu = ({ mobileOpen }) => {
             return (
               <li
                 key={id}
+                style={{
+                  position: "relative",
+                }}
                 onClick={() => {
                   navigate(link);
                 }}
               >
                 <Link to={link}>{title}</Link>
+                {children.length !== 0 && (
+                  <IoIosArrowDropdownCircle
+                    style={{
+                      position: "absolute",
+                      right: "6px",
+                      top: "6px",
+                      color: "white",
+                      fontSize: "34px",
+                      transform: nestedOpen ? "rotate(180deg)" : "rotate(0deg)",
+                    }}
+                    onClick={() => {
+                      setNestedOpen((prev) => !prev);
+                    }}
+                  />
+                )}
                 {children &&
+                  nestedOpen &&
                   children.map(({ id, title, link }) => {
                     return (
                       <li

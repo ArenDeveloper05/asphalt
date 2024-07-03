@@ -222,6 +222,32 @@
   .services-content-item-name {
     font-size: 20px;
   }
+
+  .repairing-roads-tables table,
+  .asphalt-crumbs table {
+    font-size: 15px !important;
+  }
+
+  .contact-information-links > p,
+  .contact-information-links-social {
+    font-size: 19px !important;
+  }
+
+  .home-contact-form {
+    padding: 20px;
+  }
+
+  .home-contact-form-row textarea {
+    min-height: 100px;
+  }
+
+  .home-contact-form-row input {
+    height: 46px;
+  }
+
+  .gallery-images-list {
+    padding: 13px;
+  }
 }
 
 @media only screen and (max-width: 440px) {

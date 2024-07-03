@@ -9,12 +9,6 @@ import "./MobileHeader.scss";
 const MobileHeader = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  useEffect(() => {
-    document.querySelector("html").style.overflow = mobileOpen
-      ? "hidden"
-      : "auto";
-  }, [mobileOpen]);
-
   return (
     <>
       <div
