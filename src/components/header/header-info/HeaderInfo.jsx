@@ -17,7 +17,7 @@ const HeaderInfo = () => {
       </p>
 
       <a href="tel:+79057552919">
-        Тел. +7 (905)-755-29-19 <BsFillTelephoneInboundFill />
+        Тел. +7 (905)-755-29-19 +79057552919 <BsFillTelephoneInboundFill />
       </a>
     </div>
   );

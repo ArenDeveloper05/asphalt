@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="contact-information">
         <div className="contact-information-links">
           <div className="contact-information-links-social">
-            <a href="https://wa.me/79653353568" className="wp">
+            <a href="https://wa.me/79057552919" className="wp">
               Мы в WhatsApp
             </a>
             <a href="mailto:masiskhlghatyan@gmail.com" className="email">
@@ -17,7 +17,7 @@ const Contact = () => {
             </a>
           </div>
           <p>
-            <a href="tel:+79653353568">Тел. +7 (905)-755-29-19 </a>
+            <a href="tel:+79057552919">Тел. +7 (905)-755-29-19 </a>
           </p>
         </div>
         <div className="contact-information-map">
